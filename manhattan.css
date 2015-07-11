@@ -1,0 +1,233 @@
+/* Body Management */
+	* {
+		margin: 0 auto;
+	}
+	
+	body {
+		margin: 0 auto;
+		margin-top: 50px;
+		background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
+		width: 600px;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	/* Title Elements */
+	
+	a.title {
+		font-family: KlinicSlabBook;
+		font-size: 36px;
+		color: black;
+	}
+	
+	a.title:hover {
+		text-decoration: none;
+		color: #ABABAB;
+	}
+	
+	a.byline {
+		font-family: KlinicSlabBook;
+		font-size: 18px;
+		color: black;
+	}
+	
+	a.byline:hover {
+		text-decoration: none;
+		color: #B9040B;
+	}
+
+/* Menu elements */
+	#menu_bin {
+		width: 100%;
+	}
+	ul.menu {
+		font-family: KlinicSlabBook;
+		font-size: 17px;
+		color: black;
+		margin: 15px;
+		margin-left: -45px;
+	}
+	
+	li.menu {
+		display: inline;
+		text-decoration: none;
+	}
+	
+	a.menu {
+		color: black;
+		text-decoration: none;
+		padding: 4px;
+	}
+	a.menu:hover {
+		color: #ABABAB;
+		background: #F0F0F0;
+		text-decoration: none;
+	}
+
+/* Posts */
+	#posts {
+		width: 100%;
+	}
+	
+	ul.posts {
+		font-family: Avenir;
+		text-decoration: none;
+		width: 97%;
+	}
+	
+	ul.post {
+		margin: 25px;
+		margin-left: -80px;
+	}
+	
+	li.post_title {
+		margin-left: -.75px;
+		font-size: 20px;
+		list-style-type: none;
+	}
+	
+	li.post_tag {
+		font-size: 13px;
+		list-style-type: none;
+	}
+	
+	li.post_description {
+		font-size: 15px;
+		border-top: .95px solid #333;
+		margin-top: 4px;
+		padding-top: 4px;
+		list-style-type: none;
+	}
+	
+	a.post {
+		color: black;
+	}
+	
+		a.post:hover {
+			color: #B9040B;
+		}
+	
+	a.address {
+		color: black;
+	}
+	
+		a.address:hover {
+			color: #B9040B;
+		}
+		
+	a.source {
+		color: black;
+		text-decoration: none;
+	}
+
+		a.source:hover {
+			color: #8144A3;
+		}
+
+/* About Page */
+	.banner {
+		list-style-type: none;
+	}
+	
+	#lists {
+		width: 100%;
+		
+	}
+	
+	ul.list {
+		width: 30%;
+		margin: 17px;
+		margin-left: -39.7px;
+		list-style-type: none;
+		display: inline-block;
+	}
+	
+	li.title {
+		font-family: KlinicSlabMedium;
+		font-size: 20px;
+		color: #FB7A18;
+		border-bottom: .95px solid #333;
+		margin-bottom: 10px;
+	}
+	
+	li.item {
+		font-family: KlinicSlabBookItalic;
+		font-size: 17px;
+		margin-bottom: 3px;
+	}
+	
+	a.list_item {
+		text-decoration: none;
+		color: black;
+	}
+	a.list_item:hover {
+		text-decoration: none;
+		color: white;
+		background: #FB7A18;
+	}
+	
+/* Contact Page */
+	.left_gif {
+		list-style-type: none;
+	}
+	
+	.contact_list {
+		display: table;
+		margin: 25px;
+		margin-left: -80px;
+	}
+	
+	.email_link {
+		text-decoration: none;
+		color: black;
+		padding: 1px;
+	}
+	
+	.email_link:hover {
+		color: white;
+		background: #444444;
+	}
+	
+	#copy {
+		margin: 10px;
+		font-family: Avenir;
+		font-size: 12px;
+		text-align: center;
+	}
+	
+/* GIF Gallery Page */
+	#gif {
+		border-top: 1px solid #333;
+		padding-top: 5px;
+		font-size: 16px;
+	}
+	
+	img.gif {
+		margin-bottom: 5px;
+		max-width: 600px;
+	}
+
+/* Font Packages */
+	/* Klinic Fonts */	
+		@font-face {
+			font-family: KlinicSlabBook;
+			src:url(fonts/Klinic/KlinicSlabBook.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabBoldItalic;
+			src:url(fonts/Klinic/KlinicSlabBoldIt.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabBookItalic;
+			src:url(fonts/Klinic/KlinicSlabBookIt.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabMedium;
+			src:url(fonts/Klinic/KlinicSlabMedium.otf);
+		}
+	@font-face {
+		font-family: Avenir;
+		src:url(fonts/Avenir.ttc);
+	}

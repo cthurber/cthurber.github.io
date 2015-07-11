@@ -1,0 +1,175 @@
+/* Page Layout */
+	#landing {
+		
+		margin: 0 auto;
+		width: 600px;
+		padding-top: 150px;
+	}
+	#navigation {
+		margin-left: 50px;
+	}
+	#welcome {
+		float: left;
+		padding-bottom: 15px;
+		width: 100%;
+	}
+/* Text Controls */
+	.title {
+		float: left;
+		width: 100%;
+		font-family: KlinicSlabBook;
+		font-size: 50px;
+		color: black;
+		text-align: center;
+		border-bottom: 1px solid #313131;
+	}
+	.titleSub {
+		float: left;
+		width: 100%;
+		padding-top: 3px;
+		font-family: KlinicSlabBook;
+		font-size: 20px;
+		color: black;
+		text-align: center;
+	}
+	/* Slogan Motto Thing */
+		#motto {
+			float: left;
+			font-family: KlinicSlabBook;
+			font-size: 18px;
+			padding-top: 20px;
+			text-align: center;
+			width: 100%;
+		}
+	/* Footer */
+		#footer {
+			float: left;
+			padding-top: 20px;
+			text-align: center;
+			font-family: Avenir-Light;
+			font-size: 14px;
+			color: black;
+			width: 100%;
+		}
+/* UI Elements */
+	.ring {
+		/* Aesthetics */
+		float: left;
+		display: table-cell;
+		text-decoration: none;
+		/* Dynamics */
+		margin: 10px;
+		width:100px;
+		height:100px;
+		border-radius:50px;
+		line-height:100px;
+		text-align:center;
+		-o-transition:.2s;
+		-ms-transition:.2s;
+		 -moz-transition:.2s;
+		 -webkit-transition:.2s;
+		 transition:.2s;
+	}
+		.ring:hover {
+			/* Aesthetics */
+			display: table-cell;
+			text-decoration: none;
+			/* Dynamics */
+			line-height:100px;
+			text-align:center;
+			color: white;
+		}
+	#ringCode {
+		float: left;
+		border: 1px solid #292929;
+		background: rgba(255, 255, 255, 0.00);
+		color: black;
+		text-decoration: none;
+		font-family: Avenir-Light;
+		font-size: 18px;
+	}
+		#ringCode:hover {
+			float: left;
+			background: #292929;
+			background: #292929;
+			color: white;
+			font-family: Avenir-Medium;
+			text-decoration: none;
+		}
+	#ringFlickr {
+		float: left;
+		border: 1px solid #292929;
+		background: rgba(255, 255, 255, 0.00);
+		color: black;
+		text-decoration: none;
+		font-family: Avenir-Light;
+		font-size: 18px;
+		text-decoration: none;
+	}
+		#ringFlickr:hover {
+			float: left;
+			background: #292929;
+			background: #292929;
+			color: white;
+			font-family: Avenir-Medium;
+		}
+	#ringBlog {
+		float: left;
+		border: 1px solid #292929;
+		background: rgba(255, 255, 255, 0.00);
+		color: black;
+		font-family: Avenir-Light;
+		font-size: 18px;
+		text-decoration: none;
+	}
+		#ringBlog:hover {
+			float: left;
+			background: #292929;
+			background: #292929;
+			color: white;
+			font-family: Avenir-Medium;
+		}
+	#ringAbout {
+		float: left;
+		border: 1px solid #292929;
+		background: rgba(255, 255, 255, 0.00);
+		color: black;
+		font-family: Avenir-Light;
+		font-size: 18px;
+		text-decoration: none;
+	}
+		#ringAbout:hover {
+			float: left;
+			background: #292929;
+			background: #292929;
+			color: white;
+			font-family: Avenir-Medium;
+		}
+		
+	#copy_slot {
+		margin: 80px;
+		margin-top: 360px;
+	}	
+/* Font Packages */
+	/* Klinic Fonts */	
+		@font-face {
+			font-family: KlinicSlabBook;
+			src:url(fonts/Klinic/KlinicSlabBook.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabBoldItalic;
+			src:url(fonts/Klinic/KlinicSlabBoldIt.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabBookItalic;
+			src:url(fonts/Klinic/KlinicSlabBookIt.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabMedium;
+			src:url(fonts/Klinic/KlinicSlabMedium.otf);
+		}
+		@font-face {
+			font-family: Avenir;
+			src:url(fonts/Avenir.ttc);
+		}
+		
