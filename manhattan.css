@@ -117,13 +117,23 @@
 			color: #B9040B;
 		}
 		
+	a.linkedin {
+		color: black;
+		text-decoration: none;
+	}
+
+		a.linkedin:hover {
+			color: white;
+			background: #1C59E7;
+		}
 	a.source {
 		color: black;
 		text-decoration: none;
 	}
 
 		a.source:hover {
-			color: #8144A3;
+			color: white;
+			background: #B55FE7;
 		}
 
 /* About Page */
