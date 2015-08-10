@@ -14,7 +14,7 @@ img.bg {
   z-index: 0;
   top: 0;
   left: 0;
-  opacity: 0.8;
+  opacity: 1;
   filter: alpha(opacity=60);
 }
 
