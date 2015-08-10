@@ -1,6 +1,7 @@
 /* Page Layout */
 	#landing {
-		
+		position: absolute;
+		z-index: 1;
 		margin: 0 auto;
 		width: 600px;
 		padding-top: 150px;
@@ -19,9 +20,9 @@
 		width: 100%;
 		font-family: KlinicSlabBook;
 		font-size: 50px;
-		color: black;
+		color: white;
 		text-align: center;
-		border-bottom: 1px solid #313131;
+		border-bottom: .75px solid white; /* #313131 */
 	}
 	.titleSub {
 		float: left;
@@ -29,15 +30,16 @@
 		padding-top: 3px;
 		font-family: KlinicSlabBook;
 		font-size: 20px;
-		color: black;
+		color: white;
 		text-align: center;
 	}
 	/* Slogan Motto Thing */
 		#motto {
 			float: left;
 			font-family: KlinicSlabBook;
-			font-size: 18px;
-			padding-top: 20px;
+			color: white;
+			font-size: 19px;
+			padding-top: 60px;
 			text-align: center;
 			width: 100%;
 		}
@@ -81,9 +83,8 @@
 		}
 	#ringCode {
 		float: left;
-		border: 1px solid #292929;
-		background: rgba(255, 255, 255, 0.00);
-		color: black;
+		border: 1px solid white;
+		color: white;
 		text-decoration: none;
 		font-family: Avenir-Light;
 		font-size: 18px;
@@ -98,9 +99,9 @@
 		}
 	#ringFlickr {
 		float: left;
-		border: 1px solid #292929;
+		border: 1px solid white;
 		background: rgba(255, 255, 255, 0.00);
-		color: black;
+		color: white;
 		text-decoration: none;
 		font-family: Avenir-Light;
 		font-size: 18px;
@@ -109,15 +110,14 @@
 		#ringFlickr:hover {
 			float: left;
 			background: #292929;
-			background: #292929;
 			color: white;
 			font-family: Avenir-Medium;
 		}
 	#ringBlog {
 		float: left;
 		border: 1px solid #292929;
-		background: rgba(255, 255, 255, 0.00);
-		color: black;
+		border: 1px solid white;
+		color: white;
 		font-family: Avenir-Light;
 		font-size: 18px;
 		text-decoration: none;
@@ -125,22 +125,20 @@
 		#ringBlog:hover {
 			float: left;
 			background: #292929;
-			background: #292929;
 			color: white;
 			font-family: Avenir-Medium;
 		}
 	#ringAbout {
 		float: left;
-		border: 1px solid #292929;
+		border: 1px solid white;
 		background: rgba(255, 255, 255, 0.00);
-		color: black;
+		color: white;
 		font-family: Avenir-Light;
 		font-size: 18px;
 		text-decoration: none;
 	}
 		#ringAbout:hover {
 			float: left;
-			background: #292929;
 			background: #292929;
 			color: white;
 			font-family: Avenir-Medium;
@@ -150,6 +148,14 @@
 		margin: 80px;
 		margin-top: 360px;
 	}	
+	
+	#copyfooter {
+		margin: 10px;
+		font-family: Avenir;
+		font-size: 12px;
+		text-align: center;
+		color: white;
+	}
 /* Font Packages */
 	/* Klinic Fonts */	
 		@font-face {
