@@ -34,8 +34,8 @@ img.bgr {
   z-index: 0;
   top: 0;
   left: 0;
-  opacity: 0.2;
-  filter: alpha(opacity=60);
+  opacity: 0.1;
+  filter: alpha(opacity=10);
 }
 
 /* Body Management */
@@ -54,6 +54,8 @@ img.bgr {
 	
 	a {
 		text-decoration: none;
+		position: relative;
+		z-index: 1;
 	}
 	
 	/* Title Elements */
@@ -83,6 +85,8 @@ img.bgr {
 /* Menu elements */
 	#menu_bin {
 		width: 100%;
+		position: relative;
+		z-index: 1;
 	}
 	
 	ul.menu {
@@ -112,6 +116,8 @@ img.bgr {
 /* Posts */
 	#posts {
 		width: 100%;
+		position: relative;
+		z-index: 1;
 	}
 	
 	ul.posts {
