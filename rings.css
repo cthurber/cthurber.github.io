@@ -1,14 +1,13 @@
 /* Page Layout */
 /* Background handling */
 img.bacg {
+  /* Set up proportionate scaling */
+  height: auto;
+  width: 100%;
+  
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 800px;
-
-  opacity: ;
-  /* Set up proportionate scaling */
-  height: auto;
-	
 
   /* Set up positioning */
   position: fixed;
