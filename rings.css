@@ -3,11 +3,11 @@
 img.bacg {
   /* Set up proportionate scaling */
   height: auto;
+  min-width: 1080px;
   width: 100%;
   
   /* Set rules to fill background */
   min-height: 100%;
-  min-width: 800px;
 
   /* Set up positioning */
   position: fixed;
