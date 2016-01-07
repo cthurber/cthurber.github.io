@@ -1,4 +1,23 @@
 /* Page Layout */
+/* Background handling */
+img.bacg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 800px;
+
+  opacity: ;
+  /* Set up proportionate scaling */
+  height: auto;
+	
+
+  /* Set up positioning */
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  filter: alpha(opacity=60);
+}
 	#landing {
 		position: absolute;
 		z-index: 1;
@@ -24,6 +43,12 @@
 		text-align: center;
 		border-bottom: .75px solid white; /* #313131 */
 	}
+		#titleLine {
+			width: 200px;
+			height: 60px;
+			margin-bottom: 10px;
+			background: hsla(217, 8%, 28%, 0.75);	
+		}
 	.titleSub {
 		float: left;
 		width: 100%;
@@ -33,6 +58,12 @@
 		color: white;
 		text-align: center;
 	}
+		#subLine {
+			width: 150px;
+			height: 25px;
+			margin-top: 10px;
+			background: hsla(217, 8%, 28%, 0.75);	
+		}
 	/* Slogan Motto Thing */
 		#motto {
 			float: left;
@@ -43,6 +74,13 @@
 			text-align: center;
 			width: 100%;
 		}
+			#mottoLine {
+				width: 240px;
+				height: 45px;
+				margin-top: 10px;
+				margin-bottom: 100px;
+				background: hsla(217, 8%, 28%, 0.75);	
+			}
 	/* Footer */
 		#footer {
 			float: left;
@@ -59,6 +97,7 @@
 		float: left;
 		display: table-cell;
 		text-decoration: none;
+		background: #292929;
 		/* Dynamics */
 		margin: 10px;
 		width:100px;
@@ -83,7 +122,7 @@
 		}
 	#ringCode {
 		float: left;
-		border: 1px solid white;
+		border: 1.5px solid #0D74FF;
 		color: white;
 		text-decoration: none;
 		font-family: Avenir-Light;
@@ -91,16 +130,14 @@
 	}
 		#ringCode:hover {
 			float: left;
-			background: #292929;
-			background: #292929;
+			background: #0D74FF;
 			color: white;
 			font-family: Avenir-Medium;
 			text-decoration: none;
 		}
 	#ringFlickr {
 		float: left;
-		border: 1px solid white;
-		background: rgba(255, 255, 255, 0.00);
+		border: 1.5px solid #33E72F;
 		color: white;
 		text-decoration: none;
 		font-family: Avenir-Light;
@@ -109,14 +146,13 @@
 	}
 		#ringFlickr:hover {
 			float: left;
-			background: #292929;
+			background: #33E72F;
 			color: white;
 			font-family: Avenir-Medium;
 		}
-	#ringBlog {
+	#ringBlog { 
 		float: left;
-		border: 1px solid #292929;
-		border: 1px solid white;
+		border: 1.5px solid #E70A04;
 		color: white;
 		font-family: Avenir-Light;
 		font-size: 18px;
@@ -124,14 +160,13 @@
 	}
 		#ringBlog:hover {
 			float: left;
-			background: #292929;
+			background: #E70A04;
 			color: white;
 			font-family: Avenir-Medium;
 		}
-	#ringAbout {
+	#ringAbout { 
 		float: left;
-		border: 1px solid white;
-		background: rgba(255, 255, 255, 0.00);
+		border: 1.5px solid #F58120;
 		color: white;
 		font-family: Avenir-Light;
 		font-size: 18px;
@@ -139,7 +174,7 @@
 	}
 		#ringAbout:hover {
 			float: left;
-			background: #292929;
+			background: #F58120;
 			color: white;
 			font-family: Avenir-Medium;
 		}
