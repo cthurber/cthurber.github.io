@@ -1,4 +1,7 @@
 /* Page Layout */
+#mainSplash {
+	background: #292929;;
+}
 /* Background handling */
 img.bacg {
   /* Set up proportionate scaling */
