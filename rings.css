@@ -4,11 +4,10 @@ img.bacg {
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 800px;
-
-  opacity: ;
+  
   /* Set up proportionate scaling */
   height: auto;
-	
+  width: 100%;
 
   /* Set up positioning */
   position: fixed;
