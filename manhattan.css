@@ -112,6 +112,40 @@ img.bgr {
 		background: #F0F0F0;
 		text-decoration: none;
 	}
+	a#code {
+		border: 1.5px solid #0D74FF;;
+	}
+		a#code:hover {
+			color: white;
+			text-decoration: none;
+			background: #0D74FF;
+		}
+	a#photo {
+		border: 1.5px solid #33E72F;
+	}
+		a#photo:hover {
+			color: white;
+			text-decoration: none;
+			background: #33E72F;
+		}
+	a#food {
+		border: 1.5px solid #E70A04;
+	}
+		a#food:hover {
+			color: white;
+			text-decoration: none;
+			background: #E70A04;
+		}
+	a#about {
+		border: 1.5px solid #F58120;
+	}
+		a#about:hover {
+			color: white;
+			text-decoration: none;
+			background: #F58120;
+		}
+
+/* Colors: Code = #0D74FF; Photo = #33E72F; Food = #E70A04; About = #F58120; */
 
 /* Posts */
 	#posts {
