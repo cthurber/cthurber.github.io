@@ -105,11 +105,13 @@ img.bgr {
 	a.menu {
 		color: black;
 		text-decoration: none;
-		padding: 4px;
+		padding: 3px;
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 50px;
 	}
 	a.menu:hover {
 		color: #ABABAB;
-		background: #F0F0F0;
 		text-decoration: none;
 	}
 	a#code {
