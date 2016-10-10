@@ -5,53 +5,31 @@
     <description>...</description>
     <link>http://idkcode.comhttp://idkcode.com/blog/</link>
     <atom:link href="http://idkcode.comhttp://idkcode.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Oct 2016 20:23:32 -0400</pubDate>
-    <lastBuildDate>Sun, 09 Oct 2016 20:23:32 -0400</lastBuildDate>
+    <pubDate>Mon, 10 Oct 2016 17:53:32 -0400</pubDate>
+    <lastBuildDate>Mon, 10 Oct 2016 17:53:32 -0400</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 09 Oct 2016 19:21:44 -0400</pubDate>
-        <link>http://idkcode.comhttp://idkcode.com/blog/jekyll/update/2016/10/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://idkcode.comhttp://idkcode.com/blog/jekyll/update/2016/10/09/welcome-to-jekyll.html</guid>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
         <title>Blog Post One: An Introduction</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <description>&lt;h3 id=&quot;getting-acquainted&quot;&gt;Getting Acquainted&lt;/h3&gt;
+&lt;p&gt;In this first post, I wanted to introduce myself as a software engineer, and the project on which my team and I will be reporting on for our Software Engineering class for this Fall 2016 Semester. I am a Junior at Drew University majoring in Computer Science and Economics with a deep interest in data analytics. I interned this past summer in Boston with Fidelity Investments’ Quantitative Technology group, and the summer prior to that with Corning Incorporated’s Information Security group. Now, in my Software Engineering class, I will be working with a team of students to leverage our collective knowledge and experience to build a real-world software application for a client from Drew University.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h3 id=&quot;our-client&quot;&gt;Our Client&lt;/h3&gt;
+&lt;p&gt;Our client is a sociology professor at Drew who has spearheaded efforts to provide a directory of services and activities to those new and old in the community of Orange, New Jersey. From arts and festivals, to child services and clinics, our client has collected a vast amount of information from her community in an effort to promote local businesses, and aid newcomers in finding what they need when they need it.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h3 id=&quot;our-challenge&quot;&gt;Our Challenge&lt;/h3&gt;
+&lt;p&gt;Our client has enlisted our services to build a rich mobile application that can display the wealth of information in her existing database of business and service providers in Orange to a wide audience. The challenge is not only to create a full-featured, multi-platform application that can deliver this information, but also a low-tech component that intermediaries can use to ‘export’ addresses, contacts, and other information to emails, texts, or other media for users without a smartphone. We are also pushing for a multi-lingual interface as this would dramatically increase the user-base and usefulness of the application in its intended context.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;the-framework&quot;&gt;The Framework&lt;/h3&gt;
+&lt;p&gt;We chose &lt;a href=&quot;http://ionic.io&quot;&gt;Ionic Framework&lt;/a&gt; in part because it was the framework of choice for our original mapping protocol, Geotagger. While we may be using a different mapping protocol, the Ionic framework is a perfect choice for our use-case as we are able to build a single application that can be deployed on the web, and both major mobile platforms: iOS and Android.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;organization&quot;&gt;Organization&lt;/h3&gt;
+&lt;p&gt;So far, we have managed to split our workload up according to the three major components of the application resulting in a View Team, a Model Team, and a Controller Team, each responsible for engineering that particular component in conjunction with the remaining two teams. The three teams are all present at customer meetings with a spokesperson or business analyst of sorts from each so that their questions and concerns are addressed in customer meetings and amongst team members&lt;/p&gt;
+
+&lt;h3 id=&quot;forward-outlook&quot;&gt;Forward Outlook&lt;/h3&gt;
+&lt;p&gt;Now that we have gathered the main requirements from our customer, the View Team of which I am a part hopes to create a mock-interface for the customer to demo and provide feedback. We also hope to begin integrating some of the controller logic into the application depending on the progress of that team.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading the first post, and be sure to come back for more over the coming weeks!&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 09 Oct 2016 19:21:44 -0400</pubDate>
