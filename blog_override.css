@@ -1,0 +1,85 @@
+h2.site-title {
+	font-family: KlinicSlabBook;
+	font-weight: normal;
+	display: inline-block;
+	margin: 0;
+	padding-right: .2rem;
+}
+
+h2.site-title:hover {
+	text-decoration: none;
+	color: #ABABAB;
+}
+
+a.menu-blog {
+	font-family: KlinicSlabBook;
+	font-size: 17px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 50px;
+	margin-right: 40px;
+}
+
+a.menu-blog:hover {
+	color: #ABABAB;
+	text-decoration: none;
+}
+
+a#code {
+	border: 1.5px solid #0D74FF;;
+}
+	a#code:hover {
+		color: white;
+		text-decoration: none;
+		background: #0D74FF;
+	}
+a#photo {
+	border: 1.5px solid #33E72F;
+}
+	a#photo:hover {
+		color: white;
+		text-decoration: none;
+		background: #33E72F;
+	}
+a#food {
+	border: 1.5px solid #E70A04;
+}
+	a#food:hover {
+		color: white;
+		text-decoration: none;
+		background: #E70A04;
+	}
+a#about {
+	border: 1.5px solid #F58120;
+}
+	a#about:hover {
+		color: white;
+		text-decoration: none;
+		background: #F58120;
+	}
+
+/* Font Packages */
+	/* Klinic Fonts */	
+		@font-face {
+			font-family: KlinicSlabBook;
+			src:url(fonts/Klinic/KlinicSlabBook.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabBoldItalic;
+			src:url(fonts/Klinic/KlinicSlabBoldIt.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabBookItalic;
+			src:url(fonts/Klinic/KlinicSlabBookIt.otf);
+		}
+		@font-face {
+			font-family: KlinicSlabMedium;
+			src:url(fonts/Klinic/KlinicSlabMedium.otf);
+		}
+	@font-face {
+		font-family: Avenir;
+		src:url(fonts/Avenir.ttc);
+	}
